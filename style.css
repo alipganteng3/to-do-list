@@ -1,0 +1,107 @@
+/* === Global Styles === */
+body {
+  background: linear-gradient(135deg, #555555,#555555, #8a8a8a);
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  color: white; /* teks terang biar kontras */
+  min-height: 100vh;
+}
+
+
+/* === Heading === */
+h1 {
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 700;
+  font-size: 700;
+  letter-spacing: 1.5px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+  margin: 40px 0;
+  user-select: none;
+}
+
+/* === Container === */
+.container {
+  background-color: #686363;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* === Form === */
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* === Input === */
+input[type="text"] {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 17px;
+  width: 60%;
+  max-width: 300px;
+  box-sizing: border-box;
+  background: linear-gradient(145deg, #2a2a2a, #1c1c1c);
+  color: #E0E0E0;
+}
+
+input[type="text"]::placeholder {
+  color: #AAAAAA;
+}
+
+/* === Button (Global) === */
+button {
+  background: linear-gradient(135deg, #000000, #333333);
+  color: #fff;
+  border: none;
+  padding: 7px 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #333333, #555555);
+}
+
+/* === Specific Button Styles === */
+button.delete-btn {
+  background: linear-gradient(135deg, #D32F2F);
+  color: #fff;
+}
+
+button.edit-btn {
+  background: linear-gradient(135deg, #66BB6A,);
+  color: #fff;
+}
+
+/* === Task List === */
+#task-list {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+/* === Task Item === */
+li {
+  margin: 10px 0;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  background: linear-gradient(145deg, #1a1a1a, #2a2a2a);
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+#search-input{
+  margin-top: 10px;
+}
